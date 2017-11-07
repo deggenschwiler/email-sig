@@ -2,7 +2,11 @@
 $fullname = $_REQUEST["fullname"];
 $jobtitle = $_REQUEST["jobtitle"];
 $mobilenumber = $_REQUEST["mobilenumber"];
-$photo = $REQUEST["photo"];
+$urlphoto = $REQUEST["photo"];
+$urlphoto = "https://drive.google.com/open?id=1OXgzByG95FKnG-aYUojiTQuM5_Gn60a6";
+$arrayphoto = array(explode('?id=', $urlphoto, 2));
+$photo = $arrayphoto[1];
+echo $photo;
 ?>
 <br>
 <br>
