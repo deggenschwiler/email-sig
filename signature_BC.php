@@ -15,10 +15,9 @@ $photo = $REQUEST["photo"];
     </td>
     <td>&nbsp;&nbsp;&nbsp;</td>
     <td>
-      <br>
-      <font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
-      <font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br>
-      <font size="4" style="font-size: 14px; color: grey;">
+      <font size="4" style="font-size: 16px;"><?php echo $fullname;?></font><br>
+      <font size="2" style="font-size: 11px; font-"><i><?php echo $jobtitle;?></i></font><br>
+      <font size="4" style="font-size: 11px; color: grey;">
       <?php echo $mobilenumber;?><br>
       </font>
     </td>
