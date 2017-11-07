@@ -5,8 +5,8 @@
   <input type="text" name="jobtitle"><br>
   mobilenumber:<br>
   <input type="text" name="mobilenumber"><br>
-  emailaddress front only without the brandcalibre.com:<br>
-  <input type="text" name="emailaddress"><br>
+  photo (upload to drive, make it publicly accessable under share settings, then paste url here):<br>
+    <input type="text" name="photo"><br>
 
   <input type="submit" value="Submit">
 </form>

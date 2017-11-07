@@ -2,11 +2,21 @@
 $fullname = $_REQUEST["fullname"];
 $jobtitle = $_REQUEST["jobtitle"];
 $mobilenumber = $_REQUEST["mobilenumber"];
-$emailaddress = $_REQUEST["emailaddress"] . "@brandcalibre.com";
+$photo = $REQUEST["photo"];
 ?>
+<br>
+<br>
+<div style="border-left: 10px double rgb(150,211,177)">
+<br>
+<font size="4"><?php echo $fullname;?></font><br>
+<font size="2"><?php echo $jobtitle;?></font><br>
+<br>
+<font size="2">Brand Calibre</font><br>
+<br>
 
 
-<br><br>
+
+
 <table cellpadding="0" cellspacing="0" border="0" style="font-family:Times;width:530px;max-width:600px;background-image:initial;background-position:initial;background-repeat:initial;margin:0px;padding:25px;border:10px solid rgb(150,211,177)">
   <tbody>
     <tr>
