@@ -6,18 +6,18 @@ $photo = $REQUEST["photo"];
 ?>
 <br>
 <br>
-<div style="border-left: 10px double rgb(150,211,177)">
+<div style="border-left: 10px double rgb(150,211,177); padding-left: 15px;">
 <br>
 <font size="4"><?php echo $fullname;?></font><br>
 <font size="2"><?php echo $jobtitle;?></font><br>
 <br>
 <font size="2">Brand Calibre</font><br>
 <br>
+<table cellpadding="0" cellspacing="0" border="0">
 
 
 
-
-<table cellpadding="0" cellspacing="0" border="0" style="font-family:Times;width:530px;max-width:600px;background-image:initial;background-position:initial;background-repeat:initial;margin:0px;padding:25px;border:10px solid rgb(150,211,177)">
+<table cellpadding="0" cellspacing="0" border="0" style="font-family: Helvetica, Arial, sans-serif; margin:0px; padding:25px;">
   <tbody>
     <tr>
       <td colspan="2" style="color:black;font-family:Arial,Helvetica,sans-serif">
