@@ -6,12 +6,14 @@ $photo = $REQUEST["photo"];
 ?>
 <br>
 <br>
+<div style="font-family: Helvetica, Arial, sans-serif;">
 <table cellpadding="0" cellspacing="0" border="0">
   <tbody>
     <tr>
     <td>
       <img src="https://drive.google.com/a/brandcalibre.com/uc?id=1OXgzByG95FKnG-aYUojiTQuM5_Gn60a6&amp;export=download" alt="my_face" width="80" style="border-radius: 40px;">
     </td>
+    <td>&nbsp;&nbsp;&nbsp;</td>
     <td>
       <br>
       <font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
