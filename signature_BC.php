@@ -6,20 +6,21 @@ $photo = $REQUEST["photo"];
 ?>
 <br>
 <br>
-<img <?php echo "src=\"" . $photo . "\"";?> alt="my_face" width="80" style="border-radius: 40px;">
-<div style="padding-left: 90px; font-family: Helvetica, Arial, sans-serif; margin-top: -80px;">
-<br>
-<font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
-<font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br>
 <table cellpadding="0" cellspacing="0" border="0">
   <tbody>
     <tr>
     <td>
+      <img src="https://drive.google.com/a/brandcalibre.com/uc?id=1OXgzByG95FKnG-aYUojiTQuM5_Gn60a6&amp;export=download" alt="my_face" width="80" style="border-radius: 40px;">
+    </td>
+    <td>
+      <br>
+      <font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
+      <font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br>
       <font size="4" style="font-size: 14px; color: grey;">
       <?php echo $mobilenumber;?><br>
       </font>
     </td>
-    </tr>
+  </tr>
   </tbody>
 </table>
 <br>
