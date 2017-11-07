@@ -6,7 +6,7 @@ $photo = $REQUEST["photo"];
 ?>
 <br>
 <br>
-<div style="border-left: 10px double rgb(150,211,177); padding-left: 15px; font-family: Helvetica, Arial, sans-serif;">
+<div style="border-left: 30px solid rgb(150,211,177); padding-left: 15px; font-family: Helvetica, Arial, sans-serif;">
 <br>
 <font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
 <font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br>
@@ -14,7 +14,7 @@ $photo = $REQUEST["photo"];
   <tbody>
     <tr>
     <td>
-      <font size="4" style="font-size: 12px; font-color: grey;">
+      <font size="4" style="font-size: 12px; color: grey;">
       <b><?php echo $mobilenumber;?></b>
       </font>
     </td>
@@ -22,9 +22,9 @@ $photo = $REQUEST["photo"];
   </tbody>
 </table>
 <br>
-<font size="4" style="font-size: 14px; font-color: grey;">Brand Calibre</font><br>
-<font size="4" style="font-size: 12px; font-color: grey;"><b>0141 212 6356</b><br></font>
-<font size="4" style="font-size: 12px; font-color: grey;">
+<font size="4" style="font-size: 14px; color: grey;">Brand Calibre</font><br>
+<font size="4" style="font-size: 12px; color: grey;"><b>0141 212 6356</b><br></font>
+<font size="4" style="font-size: 12px; color: grey;">
 The Whisky Bond<br>
 2 Dawson Road<br>
 G4 9SS<br>
@@ -43,4 +43,5 @@ www.brandcalibre.com<br>
     </tr>
   </tbody>
 </table>
+<br>
 </div>
