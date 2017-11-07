@@ -6,13 +6,14 @@ $photo = $REQUEST["photo"];
 ?>
 <br>
 <br>
-<div style="font-family: Helvetica, Arial, sans-serif;">
+<div style="padding-left: 8px; font-family: Helvetica, Arial, sans-serif;">
 <table cellpadding="0" cellspacing="0" border="0">
   <tbody>
     <tr>
     <td>
       <img src="https://drive.google.com/a/brandcalibre.com/uc?id=1OXgzByG95FKnG-aYUojiTQuM5_Gn60a6&amp;export=download" alt="my_face" width="80" style="border-radius: 40px;">
     </td>
+    <td style="border-right: solid 2px rgb(150,211,177)">&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;</td>
     <td>
       <font size="4" style="font-size: 16px;"><?php echo $fullname;?></font><br>
@@ -26,7 +27,7 @@ $photo = $REQUEST["photo"];
 </table>
 <br>
 </div>
-<div style="border-left: 30px solid rgb(150,211,177); padding-left: 15px; font-family: Helvetica, Arial, sans-serif;">
+<div style="border-left: 24px solid rgb(150,211,177); padding-left: 15px; font-family: Helvetica, Arial, sans-serif;">
 <br>
 <font size="4" style="font-size: 16px;">Brand Calibre</font><br>
 <font size="4" style="font-size: 12px; color: grey;">
