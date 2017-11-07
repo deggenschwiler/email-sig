@@ -2,7 +2,7 @@
 $fullname = $_REQUEST["fullname"];
 $jobtitle = $_REQUEST["jobtitle"];
 $mobilenumber = $_REQUEST["mobilenumber"];
-$urlphoto = $REQUEST["photo"];
+$urlphoto =htmlspecialchars($_REQUEST["photo"]);
 $arrayphoto = explode('?id=', $urlphoto, 2);
 $photo = $arrayphoto[1];
 ?>
