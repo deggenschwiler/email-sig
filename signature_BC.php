@@ -9,13 +9,14 @@ $photo = $REQUEST["photo"];
 <div style="border-left: 30px solid rgb(150,211,177); padding-left: 15px; font-family: Helvetica, Arial, sans-serif;">
 <br>
 <font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
-<font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br>
+<font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br><br>
 <table cellpadding="0" cellspacing="0" border="0">
   <tbody>
     <tr>
     <td>
-      <font size="4" style="font-size: 12px; color: grey;">
-      <b><?php echo $mobilenumber;?></b>
+      <font size="4" style="font-size: 14px; color: grey;">
+      <?php echo $mobilenumber;?><br>
+      @deggen
       </font>
     </td>
     </tr>
