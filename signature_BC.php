@@ -4,9 +4,8 @@ $jobtitle = $_REQUEST["jobtitle"];
 $mobilenumber = $_REQUEST["mobilenumber"];
 $urlphoto = $REQUEST["photo"];
 $urlphoto = "https://drive.google.com/open?id=1OXgzByG95FKnG-aYUojiTQuM5_Gn60a6";
-$arrayphoto = array(explode('?id=', $urlphoto, 2));
+$arrayphoto = explode('?id=', $urlphoto, 2);
 $photo = $arrayphoto[1];
-echo $photo;
 ?>
 <br>
 <br>
@@ -15,7 +14,7 @@ echo $photo;
   <tbody>
     <tr>
     <td>
-      <img src="https://drive.google.com/a/brandcalibre.com/uc?id=1OXgzByG95FKnG-aYUojiTQuM5_Gn60a6&amp;export=download" alt="my_face" width="80" style="border-radius: 40px;">
+      <img src="https://drive.google.com/a/brandcalibre.com/uc?id=<?php echo $photo;?>&amp;export=download" alt="my_face" width="80" style="border-radius: 40px;">
     </td>
     <td style="border-right: solid 2px rgb(150,211,177)">&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;</td>
