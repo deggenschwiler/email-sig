@@ -6,16 +6,32 @@ $photo = $REQUEST["photo"];
 ?>
 <br>
 <br>
-<div style="border-left: 10px double rgb(150,211,177); padding-left: 15px;">
+<div style="border-left: 10px double rgb(150,211,177); padding-left: 15px; font-family: Helvetica, Arial, sans-serif;">
 <br>
-<font size="4"><?php echo $fullname;?></font><br>
-<font size="2"><?php echo $jobtitle;?></font><br>
+<font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
+<font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br>
+<table cellpadding="0" cellspacing="0" border="0">
+  <tbody>
+    <tr>
+    <td>
+      <font size="4" style="font-size: 12px; font-color: rgb(150,211,177);">m: </font>
+      <?php echo $mobilenumber;?>
+    </td>
+    </tr>
+  </tbody>
+</table>
 <br>
-<font size="2">Brand Calibre</font><br>
+<font size="4" style="font-size: 18px; font-color: rgb(150,211,177);">Brand Calibre</font><br>
 <br>
-0141 212 6356
-  The Whisky Bond, G4 9SS
-  www.brandcalibre.com
+<font size="4" style="font-size: 12px; font-color: rgb(150,211,177);">t: </font>
+0141 212 6356<br>
+<font size="4" style="font-size: 12px; font-color: rgb(150,211,177);">a: </font>
+The Whisky Bond<br>
+2 Dawson Road<br>
+G4 9SS<br>
+<br>
+www.brandcalibre.com<br>
+<br>
 <table cellpadding="0" cellspacing="0" border="0">
   <tbody>
     <tr>
