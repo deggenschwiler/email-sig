@@ -6,10 +6,11 @@ $photo = $REQUEST["photo"];
 ?>
 <br>
 <br>
-<div style="padding-left: 45px; font-family: Helvetica, Arial, sans-serif;">
-<img src="<?php echo $photo;?>" alt="my_face" /><br>
+<img <?php echo "src=\"" . $photo . "\"";?> alt="my_face" width="80" style="border-radius: 40px;">
+<div style="padding-left: 90px; font-family: Helvetica, Arial, sans-serif; margin-top: -80px;">
+<br>
 <font size="4" style="font-size: 18px;"><?php echo $fullname;?></font><br>
-<font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br><br>
+<font size="2" style="font-size: 12px; font-"><i><?php echo $jobtitle;?></i></font><br>
 <table cellpadding="0" cellspacing="0" border="0">
   <tbody>
     <tr>
