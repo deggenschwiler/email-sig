@@ -14,24 +14,24 @@ $photo = $REQUEST["photo"];
   <tbody>
     <tr>
     <td>
-      <font size="4" style="font-size: 12px; font-color: rgb(150,211,177);">m: </font>
-      <?php echo $mobilenumber;?>
+      <font size="4" style="font-size: 12px; font-color: grey;">
+      <b><?php echo $mobilenumber;?></b>
+      </font>
     </td>
     </tr>
   </tbody>
 </table>
 <br>
-<font size="4" style="font-size: 18px; font-color: rgb(150,211,177);">Brand Calibre</font><br>
-<br>
-<font size="4" style="font-size: 12px; font-color: rgb(150,211,177);">t: </font>
-0141 212 6356<br>
-<font size="4" style="font-size: 12px; font-color: rgb(150,211,177);">a: </font>
+<font size="4" style="font-size: 14px; font-color: grey;">Brand Calibre</font><br>
+<font size="4" style="font-size: 12px; font-color: grey;"><b>0141 212 6356</b><br></font>
+<font size="4" style="font-size: 12px; font-color: grey;">
 The Whisky Bond<br>
 2 Dawson Road<br>
 G4 9SS<br>
 <br>
 www.brandcalibre.com<br>
 <br>
+</font>
 <table cellpadding="0" cellspacing="0" border="0">
   <tbody>
     <tr>
