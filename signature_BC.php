@@ -2,7 +2,7 @@
 $fullname = $_REQUEST["fullname"];
 $jobtitle = $_REQUEST["jobtitle"];
 $mobilenumber = $_REQUEST["mobilenumber"];
-$mobilenumber = sprintf("%s-%s-%s", substr($mobilenumber, 0, 4), substr($mobilenumber, 5, 8), substr($mobilenumber, 9));
+$mobilenumber = sprintf("%s %s %s", substr($mobilenumber, 0, 5), substr($mobilenumber, 5, 3), substr($mobilenumber, 9, 3));
 $urlphoto =htmlspecialchars($_REQUEST["photo"]);
 $arrayphoto = explode('?id=', $urlphoto, 2);
 $photo = $arrayphoto[1];
