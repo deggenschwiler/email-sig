@@ -26,7 +26,7 @@ $photo = $arrayphoto[1];
     <td>
       <font size="4" style="font-size: 16px;"><?php echo $fullname;?></font><br>
       <font size="2" style="font-size: 12px; padding-bottom: 3px; line-height: 20px;"><i><?php echo $jobtitle;?> | Brand Calibre</i></font><br>
-      <font size="4" style="font-size: 11px; color: grey; line-height: 14px;">office: 0141 212 6356<?php if(isset($_REQUEST["mobilenumber"])){ echo '  |  mobile: ' . $mobilenumber;}?>
+      <font size="4" style="font-size: 11px; color: grey; line-height: 14px;">office: 0141 212 6356<?php if(isset($_REQUEST["mobilenumber"])){ echo '  &nbsp;&nbsp;|&nbsp;&nbsp;  mobile: ' . $mobilenumber;}?>
       <br>
       www.brandcalibre.com
       </font>
