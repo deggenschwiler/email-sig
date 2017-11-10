@@ -32,9 +32,7 @@ $photo = $arrayphoto[1];
       <br>
       www.brandcalibre.com
       </font>
-
     </td>
   </tr>
   </tbody>
 </table>
-<br>
