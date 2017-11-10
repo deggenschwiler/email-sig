@@ -20,10 +20,9 @@ $photo = $arrayphoto[1];
     <td>&nbsp;&nbsp;&nbsp;</td>
     <td>
       <font size="4" style="font-size: 16px;"><?php echo $fullname;?></font><br>
-      <font size="2" style="font-size: 12px; padding-bottom: 3px;"><i><?php echo $jobtitle;?></i></font><br>
+      <font size="2" style="font-size: 11px; font-"><i><?php echo $jobtitle;?></i></font><br>
       <font size="4" style="font-size: 11px; color: grey;">
-      0141 212 6356 <br>
-      <?php echo $mobilenumber;?> <br>
+      <?php echo $mobilenumber;?><br>
       </font>
     </td>
   </tr>
