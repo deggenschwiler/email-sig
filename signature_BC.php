@@ -3,6 +3,7 @@ $fullname = $_REQUEST["fullname"];
 $jobtitle = $_REQUEST["jobtitle"];
 $mobilenumber = $_REQUEST["mobilenumber"];
 $insta = $_REQUEST["insta"];
+$linkedin = $_REQUEST["linkedin"];
 $mobilenumber = sprintf("%s %s %s", substr($mobilenumber, 0, 5), substr($mobilenumber, 5, 3), substr($mobilenumber, 8, 3));
 $urlphoto =htmlspecialchars($_REQUEST["photo"]);
 $arrayphoto = explode('?id=', $urlphoto, 2);
