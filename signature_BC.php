@@ -10,7 +10,7 @@ $arrayphoto = explode('?id=', $urlphoto, 2);
 $photo = $arrayphoto[1];
 
 // If mobile number then display it.
-// If personal insta - replace icons
+// If personal insta or linkedin- replace icons
 
 ?>
 <br>
@@ -19,8 +19,8 @@ $photo = $arrayphoto[1];
   <tbody>
     <tr>
     <td>
-      <a href="https://uk.linkedin.com/<?php if($linkedin = ""){ echo 'company/brand-calibre-limited';} else {echo 'in/' . $linkedin;}?>" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/sd-sHRnrP-aTMvM8TQ3miqgR8QAJ62U7uHuhuuo_QkVA_L51WEMVE1lG3KJTOFfEiOJb6LeJzTDAODyjdX5AYQsT_C304JudrqqB525F6-Oblq5u8FxVgMr34QYCHmqSjySaFmICJNvlleDPm3vqH-pTVYY=s0-d-e1-ft#https://drive.google.com/a/brandcalibre.com/uc?id=0BzyKkLYhtgDVRFlYZHdyZWFnUlE&amp;export=download" alt="linked in" style="padding: 2px 0px 3px 0px;"></a><br>
-      <a href="https://www.instagram.com/<?php if($insta = ""){ echo 'brandcalibre';} else {echo $insta;}?>/" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/bmEyYe9jkUfJGTNbqg6kBiGyTvHktpysALDvT44Fmq9hlRg90UGVlYZ8aXlh2NRk7iiI0usL2SMgoUVLM4miKZwwydG1n-RDOAC5JewXxDnEAZR5xyF1-ekN5ByaLXZ_cHpY1ejblBLKDRQKYEKQNYxoNY8=s0-d-e1-ft#https://drive.google.com/a/brandcalibre.com/uc?id=0BzyKkLYhtgDVVXVCWmVqU0tPNDA&amp;export=download" alt="instagram" style="padding-bottom: 3px;"></a><br>
+      <a href="https://uk.linkedin.com/<?php if($linkedin == ""){ echo 'company/brand-calibre-limited';} else {echo 'in/' . $linkedin;}?>" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/sd-sHRnrP-aTMvM8TQ3miqgR8QAJ62U7uHuhuuo_QkVA_L51WEMVE1lG3KJTOFfEiOJb6LeJzTDAODyjdX5AYQsT_C304JudrqqB525F6-Oblq5u8FxVgMr34QYCHmqSjySaFmICJNvlleDPm3vqH-pTVYY=s0-d-e1-ft#https://drive.google.com/a/brandcalibre.com/uc?id=0BzyKkLYhtgDVRFlYZHdyZWFnUlE&amp;export=download" alt="linked in" style="padding: 2px 0px 3px 0px;"></a><br>
+      <a href="https://www.instagram.com/<?php if($insta == ""){ echo 'brandcalibre';} else {echo $insta;}?>/" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/bmEyYe9jkUfJGTNbqg6kBiGyTvHktpysALDvT44Fmq9hlRg90UGVlYZ8aXlh2NRk7iiI0usL2SMgoUVLM4miKZwwydG1n-RDOAC5JewXxDnEAZR5xyF1-ekN5ByaLXZ_cHpY1ejblBLKDRQKYEKQNYxoNY8=s0-d-e1-ft#https://drive.google.com/a/brandcalibre.com/uc?id=0BzyKkLYhtgDVVXVCWmVqU0tPNDA&amp;export=download" alt="instagram" style="padding-bottom: 3px;"></a><br>
       <a href="https://www.facebook.com/brandcalibreltd/" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/XqpPlBmM6JR3zThGx7hqoeuONb9uGjyC3kULiandldIC_Dk2-fQxiuqbPWtXgSwnkrXm23Olp0AVs2pqFXftVRVC8rEifylNDOB2nH6iHGp_4jxgLoa9M4z2Pb91ZibRV_S4YJtT7ZglY003wQKGZkm_qyQ=s0-d-e1-ft#https://drive.google.com/a/brandcalibre.com/uc?id=0BzyKkLYhtgDVeF9aMEFwM1RNdFk&amp;export=download" alt="facebook"></a>
     </td>
     <td style="border-right: solid 2px rgb(150,211,177)">&nbsp;&nbsp;&nbsp;</td>
