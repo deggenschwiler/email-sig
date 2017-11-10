@@ -29,4 +29,3 @@ $photo = $arrayphoto[1];
   </tbody>
 </table>
 <br>
-?>
