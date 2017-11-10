@@ -6,6 +6,10 @@ $mobilenumber = sprintf("%s %s %s", substr($mobilenumber, 0, 5), substr($mobilen
 $urlphoto =htmlspecialchars($_REQUEST["photo"]);
 $arrayphoto = explode('?id=', $urlphoto, 2);
 $photo = $arrayphoto[1];
+
+// If mobile number then display it.
+//
+
 ?>
 <br>
 <br>
@@ -22,9 +26,11 @@ $photo = $arrayphoto[1];
     <td>
       <font size="4" style="font-size: 16px;"><?php echo $fullname;?></font><br>
       <font size="2" style="font-size: 12px; padding-bottom: 3px; line-height: 20px;"><i><?php echo $jobtitle;?> | Brand Calibre</i></font><br>
-      <font size="4" style="font-size: 11px; color: grey; line-height: 14px;">0141 212 6356<br>
-      <?php echo $mobilenumber;?><br>
+      <font size="4" style="font-size: 11px; color: grey; line-height: 14px;">0141 212 6356<?php echo if(isset($mobilenum)){ echo '  |  ' . $mobilenumber;}?>
+      <br>
+      www.brandcalibre.com
       </font>
+
     </td>
   </tr>
   </tbody>
